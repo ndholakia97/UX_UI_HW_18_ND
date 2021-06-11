@@ -2,6 +2,7 @@
     margin: 0;
     background-color: #222;
     font-family:'Montserrat';
+    max-width: 1020px;
 }
 .container {
     width: 80%;
@@ -83,23 +84,42 @@ justify-content:left;
 .workGrid {
     display: grid;
     grid-template-areas: myArea myArea myArea myArea myArea myArea;
-    grid-template-columns: 40% 60%;
-    padding: 5px;
-    width: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 550px 550px 550px;
 }
-#image1 {
+.workGrid .image1 {
     border-radius: 30px;
-    width: 120%;
+    width: 90%;
     margin-right: auto;
-    padding: 10px 0;
+    padding: 50px 0;
     margin: 20x;
 }
-#image2 {
+.workGrid .image2 {
     border-radius: 30px;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
-    padding: 10px 0;
+    padding: 50px 0;
     margin: 20x;
+}
+.workGrid .image3 {
+    border-radius: 20px;
+    width: 130%;
+    margin-left: auto;
+    padding: 50px 0;
+    margin: 30x;
+}
+.project1 {
+    margin: 40px;
+    padding: 20px;
+}
+.project2 {
+    margin-right: 130px;
+    padding: 10px;
+    text-align: right;
+}
+.project3 {
+    margin: 40px;
+    padding: 20px;
 }
 .workGrid .text {
     margin-left: 25%;
@@ -160,9 +180,9 @@ button {
     font-size: 22px;
     border-radius: 10px;
     stroke: white;
-    width: 30%;  
+    width: 350px;  
     border: 2px solid #057790;
-    padding: 14px 28px;
+    padding: 14px;
     cursor: pointer;
 }
 
@@ -175,7 +195,20 @@ padding-top: initial;
     font-weight: bolder;
     font-family: "Montserrat";
 }
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "Montserrat"; 
+}
 .text h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-align: right;
+}
+h2 {
     color: black;
     font-size: 40px;
     font-weight: 900;
@@ -187,6 +220,11 @@ padding-top: initial;
     font-size: 32px;
     font-family: "Montserrat";
 }
+p {
+   color: black;
+    font-size: 32px;
+    font-family: "Montserrat";   
+}
 .text p1 {
     color: black;
     font-size: 20px;
@@ -195,7 +233,6 @@ padding-top: initial;
 .footer {
     background-color: #AC6E64;
     margin: 0 auto;
-
 }
  footer ul {
      margin: 0;
